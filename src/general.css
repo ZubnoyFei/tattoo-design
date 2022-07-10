@@ -2,6 +2,10 @@
 @import "./styles/components/button.css";
 @import "./styles/about.css";
 @import "./styles/choose-us.css";
+@import "./styles/services.css";
+
+
+
 @font-face {
     font-family: Roboto-Slab;
     font-display: swap;
