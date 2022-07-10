@@ -1,7 +1,7 @@
 @import "./styles/header.css";
 @import "./styles/components/button.css";
-
-
+@import "./styles/about.css";
+@import "./styles/choose-us.css";
 @font-face {
     font-family: Roboto-Slab;
     font-display: swap;
@@ -46,5 +46,6 @@
 
 body {
     font-family: Roboto-Slab, sans-serif;
+    background-color : #05090A;
 }
 
