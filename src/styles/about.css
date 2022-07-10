@@ -1,6 +1,9 @@
 .about {
     padding-top: 180px;
 padding-bottom: 40px;
+    background-image: url("../../src/image/about-us_bg.png");
+    background-position: left  top ;
+    background-repeat: no-repeat;
 }
 
 
