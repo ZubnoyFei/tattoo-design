@@ -1,0 +1,33 @@
+.choose-us {
+    padding-top: 180px;
+    padding-bottom:40px ;
+}
+
+.choose-us__h2 {
+    color: rgba(218, 52, 20, 1);
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 60px;
+}
+
+
+.choose-us__ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.choose-us__ul__li__h3 {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.choose-us__ul__li__p {
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+}
