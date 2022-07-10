@@ -2,6 +2,8 @@
     padding-top: 55px;
     padding-bottom: 36px;
     background-image: url("../../src/image/consultation-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .free-consultation__h2 {
