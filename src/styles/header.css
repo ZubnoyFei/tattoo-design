@@ -41,6 +41,7 @@ header > div {
     font-weight: 500;
     line-height: 1.2;
     color: rgba(255, 255, 255, 1);
+    width: 520px;
 }
 .hero__text-wrapper-h2 {
     font-size: 65px;
