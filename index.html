@@ -90,16 +90,18 @@
                 <img class="services__img" src="src/image/our-services__tattoo.jpg"
                      alt="A girl with a tattoo on her arms">
                 <h3 class="services__subtitle">Tattoo</h3>
-                <button class="services--button button__style">View more</button>
+                <button class="services--button button--style">View more</button>
             </li>
             <li class="services__item">
                 <img src="src/image/piercing.jpg" alt="A man with a left ear pierced" class="services__img">
                 <h3 class="services__subtitle">Piercing</h3>
+                <button class="services--button button--style">View more</button>
             </li>
             <li class="services__item">
                 <img src="src/image/tattoo_removal.jpg" alt="A woman with a tattoo on her left arm"
                      class="services__img">
                 <h3 class="services__subtitle">Tattoo removal</h3>
+                <button class="services--button button--style">View more</button>
             </li>
         </ul>
     </div>
@@ -111,19 +113,19 @@
                 with the
                 tattoo artist</p>
             <div class="free-consultation--form">
-                <input type="tel" id="free-consultation__number-field"
-                       placeholder="Your mobile number">
-                <label for="free-consultation__number-field"></label>
-                <button class="free-consultation__button button__style">Send</button>
+
+                <label for="free-consultation__number-field"><input type="tel" id="free-consultation__number-field"
+                                                                    placeholder="Your mobile number"></label>
+                <button class="free-consultation__button button--style">Send</button>
             </div>
-            <p class="free-consultation__text--bottom">Our manager will contact you within an hour </p>
+            <p class="free-consultation__text bottom">Our manager will contact you within an hour </p>
         </div>
 </section>
 <section class="our-instagram">
     <div class="container our-instagram__container">
         <h2 class="our-instagram__heading heading">Our Instagram</h2>
         <p class="our-instagram__paragraph">All information about our tattoo studio, as well as information about the
-            promotions, you can find on our page on Instagram.</p>
+            promotions,<br> you can find on our page on Instagram.</p>
         <ul class="our-instagram__list">
             <li class="our-instagram__item">
                 <img class="our-instagram__tattoo" src="src/image/instagram-1.jpg"
@@ -142,52 +144,56 @@
                      alt="A girl with a tattoo on a back">
             </li>
         </ul>
-        <div class="our-instagram__button">
-            <button class="button--style">Follow us</button>
+        <div class="our-instagram__button-wrapper">
+            <button class="button--style our-instagram__button">Follow us</button>
         </div>
+
+
     </div>
 </section>
 <section class="contact">
     <div class="container contact__container">
         <div class="contact__text-wrapper">
-            <h2 class="contact--heading heading">Contacts</h2>
-            <ul class="contact__list">
-                <li class="contact__item">
-                    <h3 class="contact__subtitle">Address</h3>
-                    <p class="contact__text">Fredensgade, 3, 2200 København, Denmark</p>
-                </li>
-                <li class="contact--li">
-                    <h3 class="contact__subtitle">Telephone number</h3>
-                    <p class="contact__text">+45 (000)000-00-00</p>
-                </li>
-            </ul>
-            <ul class="contact-text-wrapper--ul">
-                <li class="contact-text-wrapper--li">
-                    <h3 class="contact__subtitle">Working hours</h3>
-                    <p class="contact__text">Monday-Friday</p>
-                    <p class="contact__text">9 a.m.-8 p.m.</p>
-                    <p class="contact__text">Saturday</p>
-                    <p class="contact__text">11 a.m. - 6 p.m.</p>
-                    <p class="contact__text">Sunday - day off</p>
-                </li>
-                <li class="contact-text-wrapper--li">
-                    <h3 class="contact__subtitle">Social networks</h3>
-                    <div class="contact__social-media">
-                        <a class="contact__link" href="#"><img
-                                class="contact__icon" src="src/image/instagram-icon.svg"
-                                alt="An Instagram icon"></a>
-                        <a class="contact__link" href="#"><img
-                                class="contact__icon" src="src/image/fb-icon.png"
-                                alt="A Facebook icon"></a>
-                        <a class="contact__link" href="#"><img
-                                class="contact__icon" src="src/image/reddit-icon.png"
-                                alt="A Reddit icon"></a>
-                        <a class="contact__link" href="#"><img
-                                class="contact__icon" src="src/image/twitter-icon.png"
-                                alt="A Twitter icon"></a>
-                    </div>
-                </li>
-            </ul>
+            <h2 class="heading contact--heading">Contacts</h2>
+<div class="contact__ul-wrapper">
+    <ul class="contact__list">
+        <li class="contact__item">
+            <h3 class="contact__subtitle">Address</h3>
+            <p class="contact__text">Fredensgade, 3, 2200 København, Denmark</p>
+        </li>
+        <li class="contact--li">
+            <h3 class="contact__subtitle phone--number">Telephone <br>number</h3>
+            <p class="contact__text">+45 (000)000-00-00</p>
+        </li>
+    </ul>
+    <ul class="contact-text-wrapper--ul">
+        <li class="contact-text-wrapper--li">
+            <h3 class="contact__subtitle">Working hours</h3>
+            <p class="contact__text">Monday-Friday</p>
+            <p class="contact__text">9 a.m.-8 p.m.</p>
+            <p class="contact__text">Saturday</p>
+            <p class="contact__text">11 a.m. - 6 p.m.</p>
+            <p class="contact__text">Sunday - day off</p>
+        </li>
+        <li class="contact-text-wrapper--li">
+            <h3 class="contact__subtitle social-networks">Social networks</h3>
+            <div class="contact__social-media">
+                <a class="contact__link" href="#"><img
+                        class="contact__icon" src="src/image/instagram-icon.svg"
+                        alt="An Instagram icon"></a>
+                <a class="contact__link" href="#"><img
+                        class="contact__icon" src="src/image/fb-icon.png"
+                        alt="A Facebook icon"></a>
+                <a class="contact__link" href="#"><img
+                        class="contact__icon" src="src/image/reddit-icon.png"
+                        alt="A Reddit icon"></a>
+                <a class="contact__link" href="#"><img
+                        class="contact__icon" src="src/image/twitter-icon.png"
+                        alt="A Twitter icon"></a>
+            </div>
+        </li>
+    </ul>
+</div>
         </div>
         <div class="contact__map-wrap">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.817610688493!2d12.566360516287425!3d55.69215868053718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465253021ff84e6f%3A0xf17ab7c425391972!2zRnJlZGVuc2dhZGUgMywgMjIwMCBLw7hiZW5oYXZuLCDQlNCw0L3QuNGP!5e0!3m2!1sru!2sua!4v1657444294654!5m2!1sru!2sua"
