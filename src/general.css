@@ -7,6 +7,8 @@
 @import "./styles/our-instagram.css";
 @import "./styles/contacts.css";
 @import "./styles/footer.css";
+@import "./styles/hero.css";
+
 
 @font-face {
     font-family: Roboto-Slab;
@@ -55,3 +57,24 @@ body {
     background-color : #05090A;
 }
 
+
+.text {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.nav {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #FFFFFF;
+}
+
+
+.heading {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1;
+}
