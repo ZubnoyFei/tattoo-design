@@ -6,3 +6,36 @@
     padding-bottom: 150px;
 }
 
+.header {
+    padding-top: 40px;
+    padding-bottom: 115px;
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hero-text {
+    padding-top: 115px;
+    padding-bottom: 150px;
+}
+
+.hero-text__title {
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 40px;
+}
+
+.hero-text__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.hero-text__button {
+    text-transform: uppercase;
+}
