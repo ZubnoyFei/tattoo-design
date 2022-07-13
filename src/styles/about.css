@@ -6,3 +6,39 @@ padding-bottom: 40px;
     background-repeat: no-repeat;
 }
 
+.about__container > div {
+    display: flex;
+    gap: 100px;
+}
+
+.about__header {
+margin-bottom: 35px;
+    border-bottom: 2px solid orangered;
+    color: #FFFFFF;
+}
+
+
+
+.choose-us__list {
+    display: flex;
+gap: 80px;
+}
+
+.choose-us__header {
+    margin-bottom: 75px;
+    color: #DA3414;
+}
+
+.choose-us__subtitle {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.choose-us__text {
+font-size: 18px;
+    font-weight: 300;
+    color: #FFFFFF;
+    line-height: 1.4;
+}
