@@ -6,23 +6,27 @@
 background-color: rgba(0, 0, 0, 0.64);
 }
 
-.contact > div {
+
+.contact__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__ul-wrapper {
     display: flex;
     justify-content: space-between;
 
 }
-
-.contact_map-wrap {
-    width: 670px;
+.contact__map-wrap {
+width: 400px;
 }
 
-.contact-text__wrapper__ul {
-    display: flex;
-    justify-content: space-between;
+
+.contact-text-wrapper--ul {
     color: rgba(255, 255, 255, 1);
     gap: 10px;
 }
-.contact-text__wrapper__h2 {
+.contact--heading{
     font-size: 30px;
     font-weight: 400;
     line-height: 1;
@@ -32,9 +36,26 @@ background-color: rgba(0, 0, 0, 0.64);
     margin-bottom: 30px;
 }
 
-.contact-text__wrapper__li__h3 {
+.contact__subtitle{
     font-size: 20px;
     line-height: 1.3;
     font-weight: 400;
     margin-bottom: 10px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.contact__text {
+    width: 170px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1;
+    color: rgba(255, 255, 255, 1);
+}
+
+.phone--number {
+    margin-top: 75px;
+}
+
+.social-networks {
+    margin-top: 37px;
 }
