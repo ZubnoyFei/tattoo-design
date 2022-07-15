@@ -49,4 +49,9 @@
 
 .services__button {
     transform: translate(40px,-120px);
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    border-radius: 8px;
 }

@@ -6,3 +6,36 @@
     background-size: cover;
 }
 
+
+.consultation-container {
+    text-align: center;
+}
+
+.consultation__heading {
+    margin-bottom: 30px;
+}
+
+.consultation__text {
+    margin-bottom: 35px;
+}
+
+
+
+.consultation__input {
+    padding-top: 9px;
+    padding-right: 20px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    border-left: 1px solid #FFFFFF;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.consultation__button {
+    padding: 4px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}

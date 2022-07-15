@@ -81,3 +81,10 @@ body {
     font-size: 30px;
     line-height: 1;
 }
+
+.orange__heading {
+    color: rgba(218, 52, 20, 1);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+}
