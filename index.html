@@ -10,212 +10,183 @@
     <link rel="stylesheet" href="src/general.css">
 </head>
 <body>
-<div class="hero">
-    <div class="container">
-        <header class="header">
+<section class="hero">
+    <header class="header">
+        <div class="container header__container">
             <nav class="header__nav nav">
                 <ul class="header__list">
-                    <li class="header__item"><a class="header__link" href="#">About Us</a></li>
-                    <li class="header__item"><a class="header__link" href="#">Portfolio</a></li>
-                    <li class="header__item"><a class="header__link--ink" href="#"><img
-                            class="icon" src="src/image/header__icon.png"
-                            alt="A tattoo machine icon">Ink house</a></li>
-                    <li class="header__item"><a class="header__link" href="#">Masters</a></li>
-                    <li class="header__item"><a class="header__link" href="#">Price</a></li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">About us</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">Portfolio</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link--bold">
+                            <img src="src/image/header__icon.png" alt="" class="header__icon">
+                            Ink House
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">Masters</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">Price</a>
+                    </li>
                 </ul>
             </nav>
-        </header>
-        <div class="hero-text">
-            <h1 class="hero-text__title">Tattoo Studio<br>
-            <span class="hero-text__span">"Ink House"</span>
+        </div>
+        <div class="container hero__container">
+            <h1 class="hero__heading">
+                Tattoo Studio
+                <span class="hero__subheading">"Ink House"</span>
             </h1>
-            <p class="hero-text__text">A team of professionals who make tattoos of any complexity, piercing and
-                tattoo removal.</p>
-            <button class="button--style hero-text__button ">I want tattoo</button>
+            <p class="hero__text text">A team of professionals who make tattoos of any complexity, piercing and tattoo
+                removal.</p>
+            <button class="hero__button">I want a tattoo</button>
+        </div>
+    </header>
+</section>
+<section class="about">
+    <div class="container-xl about__container">
+        <img src="src/image/about__us.png" alt="A master makes a tattoo on an arm" class="about__imag">
+        <div class="about__text-wrapper">
+            <h2 class="about__heading heading">About us</h2>
+            <p class="about__text text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur.
+                <br>
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum.
+            </p>
         </div>
     </div>
-</div>
-<section class="about">
-    <!-- Для флексов добавляем class about__container   -->
-    <div class="container about__container">
-        <div class="about__text">
-            <img class="about__img" src="src/image/about__us.png" alt="A master makes a tattoo on an arm">
-            <div class="about__text">
-                <h2 class="heading about__header">About us</h2>
-                <p class="text about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                <br>
-                <p class="text about__text">
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est
-                    laborum.</p>
-            </div>
-        </div>
-        </div>
-        <div class="choose-us container">
-            <h2 class="heading choose-us__header">
-                Why should you choose us?
-            </h2>
-            <ul class="choose-us__list">
-                <li class="choose-us__item">
-                    <h3 class="choose-us__subtitle">Professional tattoo artists</h3>
-                    <p class="choose-us__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.</p>
-                </li>
-                <li class="choose-us__item">
-                    <h3 class="choose-us__subtitle">Quality and sterility</h3>
-                    <p class="choose-us__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.</p>
-                </li>
-                <li class="choose-us__item">
-                    <h3 class="choose-us__subtitle">Cozy atmosphere</h3>
-                    <p class="choose-us__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.</p>
-                </li>
-            </ul>
-
+    <div class="container about__choose choose">
+        <h2 class="choose__heading">Why should you choose us?</h2>
+        <ul class="choose__list-bottom">
+            <li class="choose__item">
+                <h3 class="choose__heading">Professional tattoo artists</h3>
+                <p class="choose__text text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                </p>
+            </li>
+            <li class="choose__item">
+                <h3 class="choose__heading">Quality and sterility</h3>
+                <p class="choose__text text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                </p>
+            </li>
+            <li class="choose__item">
+                <h3 class="choose__heading">Cozy atmosphere</h3>
+                <p class="choose__text text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                </p>
+            </li>
+        </ul>
     </div>
 </section>
 <section class="services">
-    <div class="container services__container">
-        <h2 class="heading services__heading">Our services</h2>
-        <ul class="services__list">
-            <li class="services__item">
-                <img class="services__img" src="src/image/our-services__tattoo.jpg"
-                     alt="A girl with a tattoo on her arms">
-                <h3 class="services__subtitle">Tattoo</h3>
-                <button class="services--button button--style">View more</button>
-            </li>
-            <li class="services__item">
-                <img src="src/image/piercing.jpg" alt="A man with a left ear pierced" class="services__img">
-                <h3 class="services__subtitle">Piercing</h3>
-                <button class="services--button button--style">View more</button>
-            </li>
-            <li class="services__item">
-                <img src="src/image/tattoo_removal.jpg" alt="A woman with a tattoo on her left arm"
-                     class="services__img">
-                <h3 class="services__subtitle">Tattoo removal</h3>
-                <button class="services--button button--style">View more</button>
-            </li>
-        </ul>
-    </div>
-</section>
-<section class="free-consultation">
-        <div class="container free-consultation__container">
-            <h2 class="free-consultation__heading">Sign up for a free consultation</h2>
-            <p class="free-consultation__text">Sign up for a free consultation in order to discuss all the details
-                with the
-                tattoo artist</p>
-            <div class="free-consultation--form">
-
-                <label for="free-consultation__number-field"><input type="tel" id="free-consultation__number-field"
-                                                                    placeholder="Your mobile number"></label>
-                <button class="free-consultation__button button--style">Send</button>
-            </div>
-            <p class="free-consultation__text bottom">Our manager will contact you within an hour </p>
-        </div>
-</section>
-<section class="our-instagram">
-    <div class="container our-instagram__container">
-        <h2 class="our-instagram__heading heading">Our Instagram</h2>
-        <p class="our-instagram__paragraph">All information about our tattoo studio, as well as information about the
-            promotions,<br> you can find on our page on Instagram.</p>
-        <ul class="our-instagram__list">
-            <li class="our-instagram__item">
-                <img class="our-instagram__tattoo" src="src/image/instagram-1.jpg"
-                     alt="A girl with a tattoo on a back">
-            </li>
-            <li class="our-instagram__item">
-                <img class="our-instagram__tattoo" src="src/image/instagram-2.jpg"
-                     alt="A boy with a tattoo on a forearm">
-            </li>
-            <li class="our-instagram__item">
-                <img class="our-instagram__tattoo" src="src/image/instagram-3.jpg"
-                     alt="A girl with a tattoo on a left arm">
-            </li>
-            <li class="our-instagram__item">
-                <img class="our-instagram__tattoo" src="src/image/instagram-4.jpg"
-                     alt="A girl with a tattoo on a back">
-            </li>
-        </ul>
-        <div class="our-instagram__button-wrapper">
-            <button class="button--style our-instagram__button">Follow us</button>
-        </div>
-
-
-    </div>
-</section>
-<section class="contact">
-    <div class="container contact__container">
-        <div class="contact__text-wrapper">
-            <h2 class="heading contact--heading">Contacts</h2>
-<div class="contact__ul-wrapper">
-    <ul class="contact__list">
-        <li class="contact__item">
-            <h3 class="contact__subtitle">Address</h3>
-            <p class="contact__text">Fredensgade, 3, 2200 København, Denmark</p>
+<div class="container services__container">
+    <h2 class="services__heading heading">Our services</h2>
+    <ul class="services__list">
+        <li class="services__item">
+            <img src="src/image/our-services__tattoo.jpg" alt="A girl with a tattoo" class="services__image">
+            <h3 class="services__subheading">Tattoo</h3>
+            <button class="button services__button--modify services__button--modify">View more</button>
         </li>
-        <li class="contact--li">
-            <h3 class="contact__subtitle phone--number">Telephone <br>number</h3>
-            <p class="contact__text">+45 (000)000-00-00</p>
+        <li class="services__item">
+            <img src="src/image/piercing.jpg" alt="A boy with a piercing" class="services__image">
+            <h3 class="services__subheading">Piercing</h3>
+            <button class="button services__button--modify services__button--modify">View more</button>
         </li>
-    </ul>
-    <ul class="contact-text-wrapper--ul">
-        <li class="contact-text-wrapper--li">
-            <h3 class="contact__subtitle">Working hours</h3>
-            <p class="contact__text">Monday-Friday</p>
-            <p class="contact__text">9 a.m.-8 p.m.</p>
-            <p class="contact__text">Saturday</p>
-            <p class="contact__text">11 a.m. - 6 p.m.</p>
-            <p class="contact__text">Sunday - day off</p>
-        </li>
-        <li class="contact-text-wrapper--li">
-            <h3 class="contact__subtitle social-networks">Social networks</h3>
-            <div class="contact__social-media">
-                <a class="contact__link" href="#"><img
-                        class="contact__icon" src="src/image/instagram-icon.svg"
-                        alt="An Instagram icon"></a>
-                <a class="contact__link" href="#"><img
-                        class="contact__icon" src="src/image/fb-icon.png"
-                        alt="A Facebook icon"></a>
-                <a class="contact__link" href="#"><img
-                        class="contact__icon" src="src/image/reddit-icon.png"
-                        alt="A Reddit icon"></a>
-                <a class="contact__link" href="#"><img
-                        class="contact__icon" src="src/image/twitter-icon.png"
-                        alt="A Twitter icon"></a>
-            </div>
+        <li class="services__item">
+            <img src="src/image/tattoo_removal.jpg" alt="A girl with a tattoo" class="services__image">
+            <h3 class="services__subheading">Tattoo removal</h3>
+            <button class="button services__button--modify services__button--modify">View more</button>
         </li>
     </ul>
 </div>
-        </div>
-        <div class="contact__map-wrap">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.817610688493!2d12.566360516287425!3d55.69215868053718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465253021ff84e6f%3A0xf17ab7c425391972!2zRnJlZGVuc2dhZGUgMywgMjIwMCBLw7hiZW5oYXZuLCDQlNCw0L3QuNGP!5e0!3m2!1sru!2sua!4v1657444294654!5m2!1sru!2sua"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+</section>
+<section class="consultation">
+    <div class="container consultation-container">
+        <h2 class="consultation__heading">Sign up for a free consultation</h2>
+        <p class="consultation__text text">Sign up for a free consultation in order to discuss all the details with the
+            tattoo artist</p>
+        <label class="consultation__input">Your mobile number
+            <input type="text" class="consultation__input">
+            <button class="button consultation__button">Send</button>
+        </label>
+        <p class="consultation__text--bottom">Our manager will contact you within an hour </p>
     </div>
 </section>
-<footer class="footer">
-    <div class="container footer__container">
-        <nav class="footer__nav nav">
-            <ul class="footer__list">
-                <li class="footer__item"><a class="footer__link" href="#">About Us</a></li>
-                <li class="footer__item"><a class="footer__link" href="#">Portfolio</a></li>
-                <li class="footer__item"><a class="footer__link" href="#"><img
-                        class="footer--img" src="src/image/header__icon.png"
-                        alt="A tattoo machine icon">Ink house</a></li>
-                <li class="footer__item"><a class="footer__link" href="#">Masters</a></li>
-                <li class="footer__item"><a class="footer__link" href="#">Price</a></li>
-            </ul>
-        </nav>
+<section class="our-instagram">
+    <div class="container-xl our-instagram__container">
+        <h2 class="our-instagram__heading heading">
+            Our instagram
+        </h2>
+        <p class="our-instagram__text text">All information about our tattoo studio, as well as information about the
+            promotions, you can find on our page on Instagram.</p>
+        <ul class="our-instagram__list">
+            <li class="our-instagram__item"><img src="src/image/instagram-1.jpg" alt="A girl with a tattoo on her back">
+            </li>
+            <li class="our-instagram__item"><img src="src/image/instagram-2.jpg" alt="A boy with tattoos"></li>
+            <li class="our-instagram__item"><img src="src/image/instagram-3.jpg"
+                                                 alt="A girl with a tatto on the shoulder"></li>
+            <li class="our-instagram__item"><img src="src/image/instagram-3.jpg" alt="A girl with a tattoo on her back">
+            </li>
+        </ul>
+        <button class="button instagram__button">Follow us</button>
     </div>
-</footer>
+</section>
+<section class="contacts">
+    <div class="container-xl contacts__container">
+        <div class="contacts__wrapper">
+            <h2 class="heading contacts__heading">Contacts</h2>
+            <ul class="contacts__list">
+                <li class="contacts__item">
+                    <div class="contacts__text-wrapper">
+                        <h3 class="contacts__subheading">Address </h3>
+                        <p class="contacts__text">Fredensgade, 3, 2200 København, Denmark</p>
+                    </div>
+                    <div class="contacts__text-wrapper">
+                        <h3 class="contacts__subheading">Telephone number</h3>
+                        <p class="contacts__text">+45 (000)000-00-00</p>
+                    </div>
+                </li>
+                <li class="contacts__item">
+                    <div class="contacts__text-wrapper">
+                        <h3 class="contacts__subheading">Working ours </h3>
+                        <p class="contacts__text">Monday-Friday</p>
+                        <p class="contacts__text">9 a.m. - 8 p.m.</p>
+                        <p class="contacts__text">Saturday</p>
+                        <p class="contacts__text"> 11 a.m. - 6 p.m.</p>
+                        <p class="contacts__text">Sunday - day off</p>
+                    </div>
+                    <div class="contacts__text-wrapper">
+                        <h3 class="contacts__subheading">Social networks</h3>
+                        <div class="contacts__social-icons">
+                            <a href="#"><img src="src/image/instagram-icon.svg" alt="An Instagram icon"
+                                             class="contacts__icon"></a>
+                            <a href="#"><img src="src/image/fb-icon.png" alt="A facebook icon"
+                                             class="contacts__icon"></a>
+                            <a href="#"> <img src="src/image/reddit-icon.png" alt="A Reddit icon"
+                                              class="contacts__icon"></a>
+                            <a href="#"><img src="src/image/twitter-icon.png" alt="A twitter icon"
+                                             class="contacts__icon"></a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!3m2!1sru!2sua!4v1657889921904!5m2!1sru!2sua!6m8!1m7!1sI8WPAjI7iogHS3lJaY7Q-A!2m2!1d55.69224594474849!2d12.56874893209781!3f194.29796479789334!4f3.1255462891168406!5f0.7820865974627469"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
 </body>
 </html>
