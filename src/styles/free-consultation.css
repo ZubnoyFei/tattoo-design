@@ -31,6 +31,7 @@
     border-bottom: 1px solid #FFFFFF;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    transform: translate(5px);
 }
 
 .consultation__button {
