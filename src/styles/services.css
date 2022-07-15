@@ -1,4 +1,52 @@
 .services {
-    padding-top: 95px;
+    padding-top: 55px;
     padding-bottom: 195px;
+}
+
+.services__heading {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.services__heading::after {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    height: 1px;
+    content:  url("../../src/image/Rectangle40.png");
+}
+
+
+.services__button {
+    display: none;
+}
+
+.services li:hover button {
+    display: block;
+}
+
+.services__item {
+    height: 340px;
+
+}
+.services__item img {
+    height: 100%;
+}
+
+.services__list {
+    display: flex;
+    gap: 75px;
+}
+
+.services__subheading {
+    font-size: 25px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    font-weight: 500;
+    transform: translate(60px,-280px);
+
+}
+
+.services__button {
+    transform: translate(40px,-120px);
 }
