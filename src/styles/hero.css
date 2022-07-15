@@ -3,32 +3,30 @@
     background-image: url("../../src/image/hero-background.png");
     background-repeat: no-repeat;
   background-size:cover;
-
+padding-top: 40px;
+    padding-bottom: 40px;
 }
-.hero-text__title {
+
+.hero__button {
+    text-transform: uppercase;
+}
+
+
+
+
+.hero__container {
+    width: 570px;
+}
+.hero__heading {
     font-size: 80px;
-    font-weight: 500;
-    color: rgba(255, 255, 255, 1);
     line-height: 1;
-margin-bottom: 40px;
-}
-
-.hero-text {
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-bottom: 30px;
     width: 570px;
 }
 
-.hero-text__span {
-    font-size: 65px;
-    font-weight: 500;
-    color: rgba(255, 255, 255, 1);
-    line-height: 1.2;
-}
-
-.hero-text__text {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 1.5;
+.hero__text {
+    width: 570px;
     margin-bottom: 40px;
-    color: rgba(255, 255, 255, 1);
 }
-
