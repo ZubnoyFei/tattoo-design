@@ -6,5 +6,48 @@
     background-repeat: no-repeat;
 }
 
+.our-instagram__heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.our-instagram__heading::after {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    height: 1px;
+    content:  url("../../src/image/Rectangle40.png");
+}
+
+.our-instagram__text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.our-instagram__list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
 
 
+.our-instagram__item {
+    height: 300px;
+}
+
+.our-instagram__image {
+    height: 100%;
+}
+
+.our-instagram__wrapper {
+    text-align: center;
+}
+
+.instagram__button {
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-right: 60px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    border-radius: 8px;
+}

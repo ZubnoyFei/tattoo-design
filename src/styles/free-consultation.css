@@ -37,5 +37,13 @@
     padding: 4px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+.consultation__text--bottom {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-top: 30px;
 
 }

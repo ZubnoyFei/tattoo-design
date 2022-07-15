@@ -25,6 +25,11 @@
     display: block;
 }
 
+.services li:hover {
+    transition: transform .2s;
+    transform: scale(1.2);
+}
+
 .services__item {
     height: 340px;
 

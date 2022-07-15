@@ -1,9 +1,28 @@
 .contact {
     padding-top: 125px;
     padding-bottom: 180px;
-    display: flex;
-    justify-content: space-between;
+
 background-color: rgba(0, 0, 0, 0.64);
 }
 
 
+.contacts__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__heading{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contacts__list {
+    display: flex;
+gap: 130px;
+
+}
+
+.contacts__item {
+    width: 200px;
+   padding-bottom: 30px;
+}
