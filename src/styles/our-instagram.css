@@ -11,14 +11,16 @@
     margin-bottom: 40px;
 }
 
-.our-instagram__heading::after {
+.our-instagram__heading:after {
     content: "";
-    display: flex;
+    display: block;
     background-color: rgba(218, 52, 20, 1);
     width: 175px;
     height: 1px;
     margin-top: 20px;
-    margin-bottom: 35px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .our-instagram__text {

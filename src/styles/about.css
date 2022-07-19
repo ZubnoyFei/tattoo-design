@@ -30,10 +30,12 @@ padding-top: 180px;
 .about__heading:after {
     content: "";
     display: block;
-   background-color: rgba(218, 52, 20, 1);
+    background-color: rgba(218, 52, 20, 1);
     width: 175px;
     height: 1px;
     margin-top: 20px;
+    margin-bottom: 50px;
+
 }
 
 .about__image {

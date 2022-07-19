@@ -9,13 +9,14 @@
 
 .services__heading:after {
     content: "";
-    display: flex;
-    justify-content: center;
+  display: block;
     background-color: rgba(218, 52, 20, 1);
     width: 175px;
     height: 1px;
     margin-top: 20px;
     margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
