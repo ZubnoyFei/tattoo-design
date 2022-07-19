@@ -5,15 +5,17 @@
 
 .services__heading {
     text-align: center;
-    margin-bottom: 70px;
 }
 
-.services__heading::after {
-    margin-top: 15px;
+.services__heading:after {
+    content: "";
     display: flex;
     justify-content: center;
+    background-color: rgba(218, 52, 20, 1);
+    width: 175px;
     height: 1px;
-    content:  url("../../src/image/Rectangle40.png");
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 
@@ -32,10 +34,17 @@
 
 .services__item {
     height: 340px;
-
 }
+
+
 .services__item img {
+    background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
     height: 100%;
+    width: 100%;
 }
 
 .services__list {
@@ -48,12 +57,17 @@
     line-height: 1.2;
     color: #FFFFFF;
     font-weight: 500;
-    transform: translate(60px,-280px);
+    transform: translate(60px,-260px);
 
 }
 
+.services__button-wrapper {
+    transform: translate(0px,-150px);
+    display: flex;
+    justify-content: center;
+}
+
 .services__button {
-    transform: translate(40px,-120px);
     padding-top: 15px;
     padding-right: 30px;
     padding-bottom: 15px;

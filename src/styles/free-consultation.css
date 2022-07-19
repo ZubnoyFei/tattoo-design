@@ -7,43 +7,43 @@
 }
 
 
-.consultation-container {
+.free-consultation__container {
     text-align: center;
 }
 
-.consultation__heading {
+.free-consultation__heading {
     margin-bottom: 30px;
 }
 
-.consultation__text {
+.free-consultation__text {
     margin-bottom: 35px;
 }
 
 
-
-.consultation__input {
+.free-consultation__input {
     padding-top: 9px;
     padding-right: 20px;
     padding-bottom: 7px;
     padding-left: 20px;
-    border-left: 1px solid #FFFFFF;
-    border-top: 1px solid #FFFFFF;
-    border-bottom: 1px solid #FFFFFF;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     transform: translate(5px);
 }
+.free-consultation__label{
 
-.consultation__button {
-    padding: 4px;
+    transform: translate(5px);
+}
+
+.free-consultation__button {
+    padding: 5px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
 
-.consultation__text--bottom {
+.free-consultation__text--bottom {
     font-size: 16px;
     color: #FFFFFF;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 1.2;
     margin-top: 30px;
 

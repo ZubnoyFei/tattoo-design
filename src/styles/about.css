@@ -14,24 +14,26 @@ padding-top: 180px;
 }
 
 .about__heading {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
-.about__heading::after {
-    margin-top: 15px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    height: 1px;
-    content:  url("../../src/image/Rectangle40.png");
-}
 
 .about__image {
     margin-bottom: 160px;
 }
 
 .about__text {
+    margin-top: 10px;
     width: 430px;
+}
+
+.about__heading:after {
+    content: "";
+    display: block;
+   background-color: rgba(218, 52, 20, 1);
+    width: 175px;
+    height: 1px;
+    margin-top: 20px;
 }
 
 .about__image {

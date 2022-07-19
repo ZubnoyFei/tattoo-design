@@ -52,6 +52,7 @@
         <img src="src/image/about__us.png" alt="A master makes a tattoo on an arm" class="about__image">
         <div class="about__text-wrapper">
             <h2 class="about__heading heading">About us</h2>
+
             <p class="text about__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -93,36 +94,45 @@
 </section>
 <section class="services">
     <div class="container services__container">
-        <h2 class="services__heading heading ">Our services</h2>
+        <h2 class="services__heading heading">Our services</h2>
+
         <ul class="services__list">
             <li class="services__item">
                 <img src="src/image/our-services__tattoo.jpg" alt="A girl with a tattoo" class="services__image">
                 <h3 class="services__subheading">Tattoo</h3>
-                <button class="button services__button--modify services__button">View more</button>
+                <div class="services__button-wrapper">
+                    <button class="button services__button--modify services__button">View more</button>
+                </div>
             </li>
             <li class="services__item">
                 <img src="src/image/piercing.jpg" alt="A boy with a piercing" class="services__image">
                 <h3 class="services__subheading">Piercing</h3>
-                <button class="button services__button--modify services__button">View more</button>
+               <div class="services__button-wrapper">
+                   <button class="button services__button--modify services__button">View more</button>
+               </div>
             </li>
             <li class="services__item">
                 <img src="src/image/tattoo_removal.jpg" alt="A girl with a tattoo" class="services__image">
                 <h3 class="services__subheading">Tattoo removal</h3>
-                <button class="button services__button--modify services__button">View more</button>
+                <div class="services__button-wrapper">
+                    <button class="button services__button--modify services__button">View more</button>
+                </div>
             </li>
         </ul>
     </div>
 </section>
 <section class="free-consultation">
-    <div class="container consultation-container">
-        <h2 class="consultation__heading orange__heading">Sign up for a free consultation</h2>
-        <p class="consultation__text text">Sign up for a free consultation in order to discuss all the details with the
+    <div class="container free-consultation__container">
+        <h2 class="free-consultation__heading orange__heading">Sign up for a free consultation</h2>
+        <p class="free-consultation__text text">Sign up for a free consultation in order to discuss all the details with the
             tattoo artist</p>
-        <label class="consultation__label">
-            <input type="text" class="consultation__input" placeholder="Your mobile number">
-            <button class="button consultation__button">Send</button>
-        </label>
-        <p class="consultation__text--bottom">Our manager will contact you within an hour </p>
+<div class="free-consultation__input">
+    <label class="free-consultation__label">
+        <input type="text" class="free-consultation__input" placeholder="Your mobile number">
+        <button class="button free-consultation__button">Send</button>
+    </label>
+</div>
+        <p class="free-consultation__text--bottom">Our manager will contact you within an hour </p>
     </div>
 </section>
 <section class="our-instagram">
