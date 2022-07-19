@@ -6,11 +6,10 @@
     padding-bottom: 80px;
 }
 
-.header {
-    padding-top: 40px;
-    padding-bottom: 115px;
-}
+
 
 .header__nav {
+    padding-top: 40px;
+    padding-bottom: 115px;
     margin-bottom: 210px;
 }
